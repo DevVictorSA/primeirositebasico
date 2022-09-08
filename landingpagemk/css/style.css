@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image:url("../img/fundolandinpage.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 1600px 900px;
+    background-repeat: no-repeat;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+header img{
+    width: 400px;
+    height: 100px;
+}
+
+nav a{
+    color: white;
+    margin-left: 100px;
+}
+
+nav a:hover{
+    color: white;
+    border-bottom: 3px solid #797FF2;
+    transition: 0.3s all;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;  
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+article h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#t1{
+    font-size: 90px;
+    margin-left: 60px;
+}
+
+#t2{
+    font-size: 50px;
+    color:#797FF2;
+    padding-bottom: 15px;
+    margin-left: 65px;
+    margin-top: -30px;
+    border-bottom: 4px solid #797FF2;
+    width: 370px;
+}
+
+p.text{
+    width: 40%;
+    margin-left: 65px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+footer p{
+    color: #1f203f;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#btn{
+    font-size: larger;
+    font-weight: 100px;
+    color: white;
+    margin-left: 65px;
+    padding: 10px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, black, #797FF2);
+    background-repeat: no-repeat;
+}
+
+#btn:hover{
+    background-image: linear-gradient(to left, #353868, #797FF2);
+    transition: 1s all;
+}
+
+ img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: -13px;
+ }
