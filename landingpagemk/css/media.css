@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media (max-width: 700px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+
+    nav a {
+        flex-direction: row;
+    }
+
+}
